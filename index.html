@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html class="mdc-typography">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Premera UX Pattern Library</title>
+    <link rel="stylesheet" type="text/css" href="node_modules/material-components-web/dist/material-components-web.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="css/prism.css">
+  </head>
+
+  <body class="mdc-typography">
+    <a name="top"></a>
+    <header class="mdc-toolbar">
+      <div class="mdc-toolbar__row">
+        <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
+          <span class="mdc-toolbar__title catalog-title">Premera UX Pattern Library</span>
+        </section>
+      </div>
+    </header>
+
+    <div class="page-container">
+      <nav class="mdc-permanent-drawer">
+        <div class="mdc-list-group">
+          <nav class="mdc-list">
+            <a class="mdc-list-item" href="#cards">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">dns</i>Cards
+            </a>
+
+            <a class="mdc-list-item" href="#buttons">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">play_circle_filled</i>Buttons
+            </a>
+
+            <a class="mdc-list-item" href="#dialogs">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">play_circle_filled</i>Dialogs
+            </a>
+
+            <a class="mdc-list-item" href="#drawers">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">play_circle_filled</i>Drawers
+            </a>
+
+            <a class="mdc-list-item" href="#gridlists">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">play_circle_filled</i>Grid Lists
+            </a>
+
+            <a class="mdc-list-item" href="#inputsandcontrols">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">play_circle_filled</i>Inputs and Controls
+            </a>
+
+            <a class="mdc-list-item" href="#checkboxes">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">play_circle_filled</i>Checkboxes
+            </a>
+
+            <a class="mdc-list-item" href="#formfields">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">play_circle_filled</i>Form Fields
+            </a>
+
+            <a class="mdc-list-item" href="#radiobuttons">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">play_circle_filled</i>Radio Buttons
+            </a>
+
+            <a class="mdc-list-item" href="#selectmenus">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">play_circle_filled</i>Select Menus
+            </a>
+
+            <a class="mdc-list-item" href="#sliders">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">play_circle_filled</i>Sliders
+            </a>
+
+            <a class="mdc-list-item" href="#switches">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">play_circle_filled</i>Switches
+            </a>
+
+            <a class="mdc-list-item" href="#textfields">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">play_circle_filled</i>Text Fields
+            </a>
+
+            <a class="mdc-list-item" href="#layoutgrid">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">play_circle_filled</i>Layout Grid
+            </a>
+
+            <a class="mdc-list-item" href="#linearprogress">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">play_circle_filled</i>Linear Progress
+            </a>
+
+            <a class="mdc-list-item" href="#lists">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">play_circle_filled</i>Lists
+            </a>
+
+            <a class="mdc-list-item" href="#menus">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">play_circle_filled</i>Menus
+            </a>
+
+            <a class="mdc-list-item" href="#ripples">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">play_circle_filled</i>Ripples
+            </a>
+
+            <a class="mdc-list-item" href="#rtl">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">play_circle_filled</i>RTL
+            </a>
+
+            <a class="mdc-list-item" href="#snackbars">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">play_circle_filled</i>Snackbars
+            </a>
+
+            <a class="mdc-list-item" href="#tabs">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">play_circle_filled</i>Tabs
+            </a>
+
+            <a class="mdc-list-item" href="#theme">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">play_circle_filled</i>Theme
+            </a>
+
+            <a class="mdc-list-item" href="#toolbars">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">play_circle_filled</i>Toolbars
+            </a>
+
+            <a class="mdc-list-item" href="#typography">
+              <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">title</i>Typography
+            </a>
+          </nav>
+        </div>
+      </nav>
+
+      <main class="main-content">
+        <h1 class="mdc-typography--display3">Welcome!</h1>
+        <p class="lead">This document is meant as THE ULTIMATE source for ideal Premera UI components and patterns. We use Google Material Design customized to our branding, and using the navigation on this site, you can access all possible components, intertact with them, and learn about their usage.</p>
+        <p>To contribute to or contest this document, please see our submission process on CONFLUENCE LINK.</p>
+
+        <!-- CARDS -->
+        <section class="pattern-section">
+          <a name="cards"></a>
+          <h2 class="mdc-typography--display2">Cards</h2>
+
+          <h3>Card with width and height</h3>
+          <p>Cards don’t come with a predefined width or height. They expand horizontally to fill all available space, and vertically to fit their contents. If you’d like to maintain a consistent height and width across cards, you’ll need to set it in your styles:</p>
+
+          <div id="card-example" class="mdc-card">
+            <section class="mdc-card__media"></section>
+            <section class="mdc-card__primary">
+              <h1 class="mdc-card__title mdc-card__title--large">Title goes here</h1>
+              <h2 class="mdc-card__subtitle">Subtitle here</h2>
+            </section>
+            <section class="mdc-card__supporting-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo consequat.
+            </section>
+            <section class="mdc-card__actions">
+              <button class="mdc-button mdc-button--compact mdc-card__action">Action 1</button>
+              <button class="mdc-button mdc-button--compact mdc-card__action">Action 2</button>
+            </section>
+          </div>
+          <br>
+
+          <h3>Example Code</h3>
+          <pre><code class="language-markup">
+            <script type="prism-html-markup">
+<div id="card-example" class="mdc-card">
+  <section class="mdc-card__media"></section>
+  <section class="mdc-card__primary">
+    <h1 class="mdc-card__title mdc-card__title--large">Title goes here</h1>
+    <h2 class="mdc-card__subtitle">Subtitle here</h2>
+  </section>
+  <section class="mdc-card__supporting-text">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+    commodo consequat.
+  </section>
+  <section class="mdc-card__actions">
+    <button class="mdc-button mdc-button--compact mdc-card__action">Action 1</button>
+    <button class="mdc-button mdc-button--compact mdc-card__action">Action 2</button>
+  </section>
+</div>
+            </script>
+          </code></pre>
+
+          <h3>Custom CSS Needed</h3>
+          <pre><code class="language-css">
+#card-example.mdc-card {
+  height: 450px; /* Note: Height works in conjunction with height of media below */
+  width: 350px;
+}
+
+#card-example .mdc-card__media {
+  background-image: url("https://www.premera.com/images/Style_Guide/Jumbotron_Woman_650x275.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px; /* Note: Height works in conjunction with height of card */
+}
+          </code></pre>
+          <a href="#top">Back to top</a>
+        </secton>
+
+        <!-- BUTTONS -->
+        <section class="pattern-section">
+          <a name="buttons"></a>
+          <h2 class="mdc-typography--display2">Buttons</h2>
+
+          <h3>Flat and Raised Buttons</h3>
+          <p>Flat buttons are used.... raised buttons are used....</p>
+          <br>
+
+          <button class="mdc-button mdc-button--raised">
+            Raised button
+          </button>
+          <br><br>
+
+          <button class="mdc-button">
+            Flat button
+          </button>
+          <br><br>
+
+          <button class="mdc-button mdc-button--raised" disabled>
+            Raised button disabled
+          </button>
+          <br><br>
+
+          <button class="mdc-button" disabled>
+            Flat button disabled
+          </button>
+          <br><br>
+
+          <button class="mdc-button mdc-button--raised">
+            <i class="material-icons mdc-button__icon">favorite</i>
+            Icon Button
+          </button>
+          <br><br>
+
+          <h3>Floating Action Button</h3>
+          <p>Absolute positioning must be done with custom CSS.</p>
+
+          <button class="mdc-fab material-icons" aria-label="Favorite">
+            <span class="mdc-fab__icon">
+              favorite
+            </span>
+          </button>
+          <br><br>
+
+          <h3>Example Code</h3>
+          <pre><code class="language-markup">
+            <script type="prism-html-markup">
+<button class="mdc-button mdc-button--raised">
+  Raised button
+</button>
+
+<button class="mdc-button">
+  Flat button
+</button>
+
+<button class="mdc-button mdc-button--raised" disabled>
+  Raised button disabled
+</button>
+
+<button class="mdc-button" disabled>
+  Flat button disabled
+</button>
+
+<button class="mdc-button mdc-button--raised">
+  <i class="material-icons mdc-button__icon">favorite</i>
+  Icon Button
+</button>
+
+<button class="mdc-fab material-icons" aria-label="Favorite">
+  <span class="mdc-fab__icon">
+    favorite
+  </span>
+</button>
+            </script>
+          </code></pre>
+          <a href="#top">Back to top</a>
+        </secton>
+
+        <!-- DIALOGS -->
+        <section class="pattern-section">
+          <a name="dialogs"></a>
+          <h2 class="mdc-typography--display2">Dialogs</h2>
+
+          <p>Dialogs can either be very basic or have scrolling content.</p>
+          <p><button class="mdc-button mdc-button--raised" id="default-dialog-activation">Show Dialog</button></p>
+
+          <aside id="mdc-dialog-example"
+            class="mdc-dialog"
+            role="alertdialog"
+            aria-labelledby="my-mdc-dialog-label"
+            aria-describedby="my-mdc-dialog-description">
+            <div class="mdc-dialog__surface">
+              <header class="mdc-dialog__header">
+                <h2 id="my-mdc-dialog-label" class="mdc-dialog__header__title">
+                  Use Google's location service?
+                </h2>
+              </header>
+              <section id="my-mdc-dialog-description" class="mdc-dialog__body">
+                Let Google help apps determine location. This means sending anonymous location data to Google, even when no apps are running.
+              </section>
+              <footer class="mdc-dialog__footer">
+                <button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--cancel">Decline</button>
+                <button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--accept">Accept</button>
+              </footer>
+            </div>
+            <div class="mdc-dialog__backdrop"></div>
+          </aside>
+          <br><br>
+
+          <h3>HTML to initiate dialog</h3>
+          <pre><code class="language-markup">
+            <script type="prism-html-markup">
+<p><button class="mdc-button mdc-button--raised" id="default-dialog-activation">Show Dialog</button></p>
+            </script>
+          </code></pre>
+
+          <h3>JavaScript to initiate dialog</h3>
+          <pre><code class="language-javascript">
+var dialog = new mdc.dialog.MDCDialog(document.querySelector('#mdc-dialog-example'));
+document.querySelector('#default-dialog-activation').addEventListener('click', function (evt) {
+  dialog.lastFocusedTarget = evt.target;
+  dialog.show();
+})
+          </code></pre>
+
+          <h3>Dialog HTML</h3>
+          <pre><code class="language-markup">
+            <script type="prism-html-markup">
+<aside id="mdc-dialog-example"
+  class="mdc-dialog"
+  role="alertdialog"
+  aria-labelledby="my-mdc-dialog-label"
+  aria-describedby="my-mdc-dialog-description">
+  <div class="mdc-dialog__surface">
+    <header class="mdc-dialog__header">
+      <h2 id="my-mdc-dialog-label" class="mdc-dialog__header__title">
+        Use Googles location service
+      </h2>
+    </header>
+    <section id="my-mdc-dialog-description" class="mdc-dialog__body">
+      Let Google help apps determine location. This means sending anonymous location data to Google, even when no apps are running.
+    </section>
+    <footer class="mdc-dialog__footer">
+      <button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--cancel">Decline</button>
+      <button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--accept">Accept</button>
+    </footer>
+  </div>
+  <div class="mdc-dialog__backdrop"></div>
+</aside>
+            </script>
+          </code></pre>
+          <a href="#top">Back to top</a>
+        </secton>
+
+
+        <!-- DRAWERS -->
+        <section class="pattern-section">
+          <a name="drawers"></a>
+          <h2 class="mdc-typography--display2">Drawers</h2>
+          <p>You will see an example of a persistent drawer in the nav to the left.
+            GMD doesn't handle ALL of the styles for this. You will have to set the following styles:</p>
+
+          <div id="drawer-code">
+            <div>Toolbar goes here</div>
+          </div>
+
+          <pre><code class="language-markup">
+            <script type="prism-html-markup">
+<div>Toolbar goes here</div>
+<div class="content">
+  <nav class="mdc-permanent-drawer mdc-typography">
+    <nav id="icon-with-text-demo" class="mdc-list">
+      <a class="mdc-list-item mdc-permanent-drawer--selected" href="#">
+        <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">inbox</i>Inbox
+      </a>
+      <a class="mdc-list-item" href="#">
+        <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">star</i>Star
+      </a>
+    </nav>
+  </nav>
+  <main>
+    Page content goes here.
+  </main>
+</div>
+            </script>
+          </code></pre>
+          <a href="#top">Back to top</a>
+        </secton>
+
+
+        <!-- GRID LISTS -->
+        <section class="pattern-section">
+          <a name="grid-list"></a>
+          <h2 class="mdc-typography--display2">Grid Lists</h2>
+          <p>MDC Grid List provides a RTL-aware Material Design Grid list component adhering to the Material Design Grid list spec. Grid Lists are best suited for presenting homogeneous data, typically images. Each item in a grid list is called a tile. Tiles maintain consistent width, height, and padding across screen sizes.</p>
+          <p>For more details and information on how to tweak this layout, review the <a href="https://material.io/components/web/catalog/grid-lists/">Material Web Components</a> guidelines.
+
+          <div class="mdc-grid-list">
+            <ul class="mdc-grid-list__tiles">
+              <li class="mdc-grid-tile">
+                <div class="mdc-grid-tile__primary">
+                  <img class="mdc-grid-tile__primary-content" src="https://dummyimage.com/200%20x%20200/cccccc/FFFFFF.gif" />
+                </div>
+                <span class="mdc-grid-tile__secondary">
+                  <span class="mdc-grid-tile__title">Title</span>
+                </span>
+              </li>
+              <li class="mdc-grid-tile">
+                <div class="mdc-grid-tile__primary">
+                  <img class="mdc-grid-tile__primary-content" src="https://dummyimage.com/200%20x%20200/cccccc/FFFFFF.gif" />
+                </div>
+                <span class="mdc-grid-tile__secondary">
+                  <span class="mdc-grid-tile__title">Title</span>
+                </span>
+              </li>
+              <li class="mdc-grid-tile">
+                <div class="mdc-grid-tile__primary">
+                  <img class="mdc-grid-tile__primary-content" src="https://dummyimage.com/200%20x%20200/cccccc/FFFFFF.gif" />
+                </div>
+              </li>
+              <li class="mdc-grid-tile">
+                <div class="mdc-grid-tile__primary">
+                  <img class="mdc-grid-tile__primary-content" src="https://dummyimage.com/200%20x%20200/cccccc/FFFFFF.gif" />
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <h3>With Title</h3>
+          <pre><code class="language-markup">
+            <script type="prism-html-markup">
+<div class="mdc-grid-list">
+  <ul class="mdc-grid-list__tiles">
+    <li class="mdc-grid-tile">
+      <div class="mdc-grid-tile__primary">
+        <img class="mdc-grid-tile__primary-content" src="https://dummyimage.com/200%20x%20200/cccccc/FFFFFF.gif" />
+      </div>
+      <span class="mdc-grid-tile__secondary">
+        <span class="mdc-grid-tile__title">Title</span>
+      </span>
+    </li>
+    <li class="mdc-grid-tile">
+      <div class="mdc-grid-tile__primary">
+        <img class="mdc-grid-tile__primary-content" src="https://dummyimage.com/200%20x%20200/cccccc/FFFFFF.gif" />
+      </div>
+      <span class="mdc-grid-tile__secondary">
+        <span class="mdc-grid-tile__title">Title</span>
+      </span>
+    </li>
+  </ul>
+</div>
+            </script>
+          </code></pre>
+
+          <h3>Without Title</h3>
+          <pre><code class="language-markup">
+            <script type="prism-html-markup">
+<div class="mdc-grid-list">
+  <ul class="mdc-grid-list__tiles">
+    <li class="mdc-grid-tile">
+      <div class="mdc-grid-tile__primary">
+        <img class="mdc-grid-tile__primary-content" src="https://dummyimage.com/200%20x%20200/cccccc/FFFFFF.gif" />
+      </div>
+    </li>
+    <li class="mdc-grid-tile">
+      <div class="mdc-grid-tile__primary">
+        <img class="mdc-grid-tile__primary-content" src="https://dummyimage.com/200%20x%20200/cccccc/FFFFFF.gif" />
+      </div>
+    </li>
+  </ul>
+</div>
+            </script>
+          </code></pre>
+          <a href="#top">Back to top</a>
+        </secton>
+
+        <!-- TYPOGRAPHY -->
+        <section class="pattern-section">
+          <a name="typography"></a>
+          <h2 class="mdc-typography--display2">Typography</h2>
+          <p>Blah</p>
+
+          <a href="#top">Back to top</a>
+        </secton>
+        <!-- END ALL SECTIONS -->
+      </main>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script type="text/javascript">window.mdc.autoInit();</script>
+    <script type="text/javascript" src="js/prism.js"></script>
+
+    <script type="text/javascript">
+      var dialog = new mdc.dialog.MDCDialog(document.querySelector('#mdc-dialog-example'));
+      document.querySelector('#default-dialog-activation').addEventListener('click', function (evt) {
+        dialog.lastFocusedTarget = evt.target;
+        dialog.show();
+      })
+    </script>
+
+  </body>
+</html>

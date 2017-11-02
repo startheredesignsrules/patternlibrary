@@ -1,0 +1,71 @@
+:root {
+  --mdc-theme-primary: #FF7C76;
+  --mdc-theme-secondary: #DDDDDD;
+  --mdc-theme-background: #fefefe; }
+
+/* For the Pattern Library site only
+=============================================================== */
+/* Ensure layout covers the entire screen. */
+html {
+  height: 100%; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  min-height: 100%; }
+
+/* Make page layout float properly */
+.page-container {
+  display: flex;
+  flex: 1 1 auto;
+  height: 100%;
+  box-sizing: border-box; }
+
+.main-content {
+  padding: 0 40px; }
+
+/* Make the top header not pink */
+.mdc-toolbar__row {
+  background-color: #0099d8; }
+
+#card-example.mdc-card {
+  height: 450px;
+  /* Note: Height works in conjunction with height of media below */
+  width: 350px; }
+
+#card-example .mdc-card__media {
+  background-image: url("https://www.premera.com/images/Style_Guide/Jumbotron_Woman_650x275.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  /* Note: Height works in conjunction with height of card */ }
+
+/* Helper classes */
+.lead {
+  font-size: 130%; }
+
+.code-container {
+  background-color: #EFEFEF;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: 16px;
+  min-height: 150px;
+  width: 100%; }
+
+.pattern-section {
+  border-top: 1px solid #DDD;
+  margin-top: 120px;
+  padding-top: 60px; }
+
+/* Material Overrides For Premera Branding
+=============================================================== */
+/* Properly position icon inside of button */
+.mdc-button .material-icons {
+  position: relative;
+  top: 6px;
+  margin-right: 10px; }
+
+/*# sourceMappingURL=styles.css.map */
